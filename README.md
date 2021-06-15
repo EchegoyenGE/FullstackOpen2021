@@ -2,4 +2,5 @@
 
 ### I am EchegoyenGE. I am from Argentina. I am thrilled with your fullstack course and I really appreciate it!
 
-##### I have already done part 0.
+
+-Part 0: released
