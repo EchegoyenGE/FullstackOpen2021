@@ -53,6 +53,12 @@ const App = () => {
                                 setSuccessMessage('')
                             }, 3000)
                         })
+                        .catch(error => {
+                            setErrorMessage('Name must be larger than 3 and number must be larger than 8')
+                            setTimeout(() => {
+                                setErrorMessage('')
+                            }, 3000)
+                        })
                     setNewName('')
                     setNewPhone('')
                 } else {
