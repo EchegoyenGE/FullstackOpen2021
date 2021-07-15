@@ -9,6 +9,16 @@ blogsRouter.get('/', async (request, response) => {
     response.json(returnedBlogs.map(note => note.toJSON()))
 })
 
+blogsRouter.get('/:id', async (request, response) => {
+    const { id } = request.params
+    const blog = await Blog.findById(id)
+    if (blog) {
+        response.json(blog.toJSON())
+    } else {
+        response.status(404).end()
+    }
+})
+
 //Post a blog
 blogsRouter.post('/', async (request, response) => {
     const { title, author, url, likes } = request.body
@@ -52,7 +62,7 @@ blogsRouter.delete('/:id', async (request, response) => {
     }
 
     await Blog.findByIdAndRemove(id)
-    return response.status(204).send({ remove: 'successful' })
+    return response.status(204).end()
 })
 
 //update a blog 
