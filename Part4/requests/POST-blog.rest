@@ -1,10 +1,10 @@
-POST http://localhost:3003/api/blogs
+POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhc3RvbiIsImlkIjoiNjBlZGY1NWUzOWRlMTYzODc0ZjA0MjkxIiwiaWF0IjoxNjI2MjA3NTkwfQ.hAM64PhQr1TmZkucp2bY2SJYaZwUNAhs9F-lsoP4zyI
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhc3RvbiIsImlkIjoiNjBmZWI1YTJkMjFkYjI0MmUwYWM1MTE0IiwiaWF0IjoxNjI3MzA4MDk1fQ.rBDW4QuXyBt47Mw6JiEpt5NOBvsz0yjqPxxgeUgNgX0
 
 {
-    "title": "Third authorizated blog",
+    "title": "Second authorizated blog",
     "author":"Gastón",
-    "url":"www.newblog1.com",
-    "likes":24
+    "url":"www.newblog.com",
+    "likes":25
 }
