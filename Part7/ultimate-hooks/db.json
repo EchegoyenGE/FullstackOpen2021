@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "content": "custom-hookit aivan mahtavia",
+      "id": 1
+    },
+    {
+      "content": "paras feature ikinä <3",
+      "id": 2
+    },
+    {
+      "content": "My firrrst note",
+      "id": 3
+    },
+    {
+      "content": "My second note!",
+      "id": 4
+    },
+    {
+      "content": "My third note",
+      "id": 5
+    },
+    {
+      "content": "My third note",
+      "id": 6
+    },
+    {
+      "content": "My fourth note",
+      "id": 7
+    }
+  ],
+  "persons": [
+    {
+      "name": "mluukkai",
+      "number": "040-5483923",
+      "id": 1
+    },
+    {
+      "name": "gaston",
+      "number": "12491284182",
+      "id": 2
+    }
+  ]
+}

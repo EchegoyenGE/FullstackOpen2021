@@ -10,3 +10,4 @@
 - Part 4: released
 - Part 5: released
 - Part 6: released
+- Part 7: released

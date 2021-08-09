@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhc3RvbiIsImlkIjoiNjBmZWI1YTJkMjFkYjI0MmUwYWM1MTE0IiwiaWF0IjoxNjI3MzA4MDk1fQ.rBDW4QuXyBt47Mw6JiEpt5NOBvsz0yjqPxxgeUgNgX0
+
+{
+    "title": "Second authorizated blog",
+    "author":"Gastón",
+    "url":"www.newblog.com",
+    "likes":25
+}
