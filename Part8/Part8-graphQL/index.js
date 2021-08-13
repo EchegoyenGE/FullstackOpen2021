@@ -5,9 +5,9 @@ const Author = require('./models/author')
 const User = require('./models/user')
 const jwt = require('jsonwebtoken')
 
-const JWT_SECRET = 'ALPHABETAGAMMA'
+const JWT_SECRET = 'secret_jwt'
 
-const MONGODB_URI = 'mongodb+srv://user:j0Zc0PXUc2SzjkB0@cluster0.wu347.mongodb.net/library-database?retryWrites=true&w=majority'
+const MONGODB_URI = 'secret_uri'
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
